@@ -1,0 +1,30 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.preview-head {
+    min-height: 40px;
+    font-size: 25px;
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+}
+
+.preview-body {
+    background-color: rgb(237, 237, 237);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.text-white {
+    color: white;
+}
+
+.upload {
+    max-width: 300px;
+}
+
+.btn {
+    max-width: 300px;
+}
