@@ -42,7 +42,8 @@ def predict():
             # 4 return the result to JSON
             # data = {'prediction': prediction.item(), 'class_name': str(className)}
             data = {'class_name': str(className)}
-            return render_template("result.html", value = jsonify(data))
+            return render_template("result.html", value=data['class_name'])
+            # return render_template("result.html", value = jsonify(data))
         except:
             return render_template("result.html", value = jsonify({'error': 'error during prediction'}))
 
